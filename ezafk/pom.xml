@@ -38,14 +38,10 @@
             <artifactId>ezafk-paper-26.1</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.gyvex</groupId>
-            <artifactId>ezafk-folia</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
 
     <build>
+        <finalName>在线奖励-EzAfk-${project.version}</finalName>
         <resources>
             <resource>
                 <directory>${project.basedir}/../ezafk-core/src/main/resources</directory>
@@ -106,7 +102,6 @@
                                     <include>com.gyvex:ezafk-api</include>
                                     <include>com.gyvex:ezafk-core</include>
                                     <include>com.gyvex:ezafk-paper-26.1</include>
-                                    <include>com.gyvex:ezafk-folia</include>
                                 </includes>
                             </artifactSet>
                             <relocations>
